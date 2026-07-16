@@ -7,7 +7,6 @@ from utils import load_posted_ids, save_posted_ids, throttle_posting
 from config import POSTED_LOG_FILE
 from yourls_client import YourlsClient
 from config import YOURLS_API_URL, YOURLS_API_SIGNATURE
-from getpass import getpass
 
 def parse_iso_datetime(date_str):
     try:

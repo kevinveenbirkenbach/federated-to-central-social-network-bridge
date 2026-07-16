@@ -2,7 +2,6 @@ import requests
 import logging
 from datetime import datetime
 from config import PIXELFED_API_URL, PIXELFED_ACCESS_TOKEN, PIXELFED_USERNAME
-from utils import throttle_posting
 
 class Pixelfed:
     def __init__(self):

@@ -1,6 +1,6 @@
 import requests
 import logging
-from config import INSTAGRAM_GRAPH_API_URL, INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_PAGE_ID
+from config import INSTAGRAM_GRAPH_API_URL, INSTAGRAM_ACCESS_TOKEN
 
 class Instagram:
     def __init__(self):

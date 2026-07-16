@@ -20,7 +20,7 @@ class Instagram:
     def login(self):
         """Log in to Instagram using Instabot."""
         try:
-            logging.info(f"Logging in...")
+            logging.info("Logging in...")
             self.bot.login()
             logging.info("Successfully logged in to Instagram.")
         except Exception as e:
